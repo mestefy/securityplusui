@@ -1,0 +1,115 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecurityPlusUI", "SecurityPlusUI\SecurityPlusUI.csproj", "{BF088F88-F048-4F60-A21B-2AF2E0F5FFD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecurityPlusCore", "SecurityPlusCore\SecurityPlusCore.csproj", "{7B5E1094-2E5E-483A-B5AF-A8F26C409A18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecurityPlus.Hash", "SecurityPlus.Hash\SecurityPlus.Hash.csproj", "{67895871-7A6C-49B6-8928-72E94AA0E8A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecurityPlus.Signature", "SecurityPlus.Signature\SecurityPlus.Signature.csproj", "{1426C4F2-E9D2-4DD0-9382-2A252615FCFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecurityPlus.HashTests", "SecurityPlus.HashTests\SecurityPlus.HashTests.csproj", "{74919BA5-DB16-4D86-B752-94BBF85290DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecurityPlus.SignatureTests", "SecurityPlus.SignatureTests\SecurityPlus.SignatureTests.csproj", "{83B5150C-C843-455F-859A-10A077DBC915}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecurityPlusCoreTests", "SecurityPlusCoreTests\SecurityPlusCoreTests.csproj", "{CE598DD2-2496-4756-B418-06F91EE5EDEF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF088F88-F048-4F60-A21B-2AF2E0F5FFD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF088F88-F048-4F60-A21B-2AF2E0F5FFD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF088F88-F048-4F60-A21B-2AF2E0F5FFD7}.Debug|x64.ActiveCfg = Debug|x64
+		{BF088F88-F048-4F60-A21B-2AF2E0F5FFD7}.Debug|x64.Build.0 = Debug|x64
+		{BF088F88-F048-4F60-A21B-2AF2E0F5FFD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF088F88-F048-4F60-A21B-2AF2E0F5FFD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF088F88-F048-4F60-A21B-2AF2E0F5FFD7}.Release|x64.ActiveCfg = Release|x64
+		{BF088F88-F048-4F60-A21B-2AF2E0F5FFD7}.Release|x64.Build.0 = Release|x64
+		{7B5E1094-2E5E-483A-B5AF-A8F26C409A18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B5E1094-2E5E-483A-B5AF-A8F26C409A18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B5E1094-2E5E-483A-B5AF-A8F26C409A18}.Debug|x64.ActiveCfg = Debug|x64
+		{7B5E1094-2E5E-483A-B5AF-A8F26C409A18}.Debug|x64.Build.0 = Debug|x64
+		{7B5E1094-2E5E-483A-B5AF-A8F26C409A18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B5E1094-2E5E-483A-B5AF-A8F26C409A18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B5E1094-2E5E-483A-B5AF-A8F26C409A18}.Release|x64.ActiveCfg = Release|x64
+		{7B5E1094-2E5E-483A-B5AF-A8F26C409A18}.Release|x64.Build.0 = Release|x64
+		{67895871-7A6C-49B6-8928-72E94AA0E8A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67895871-7A6C-49B6-8928-72E94AA0E8A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67895871-7A6C-49B6-8928-72E94AA0E8A5}.Debug|x64.ActiveCfg = Debug|x64
+		{67895871-7A6C-49B6-8928-72E94AA0E8A5}.Debug|x64.Build.0 = Debug|x64
+		{67895871-7A6C-49B6-8928-72E94AA0E8A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67895871-7A6C-49B6-8928-72E94AA0E8A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67895871-7A6C-49B6-8928-72E94AA0E8A5}.Release|x64.ActiveCfg = Release|x64
+		{67895871-7A6C-49B6-8928-72E94AA0E8A5}.Release|x64.Build.0 = Release|x64
+		{1426C4F2-E9D2-4DD0-9382-2A252615FCFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1426C4F2-E9D2-4DD0-9382-2A252615FCFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1426C4F2-E9D2-4DD0-9382-2A252615FCFA}.Debug|x64.ActiveCfg = Debug|x64
+		{1426C4F2-E9D2-4DD0-9382-2A252615FCFA}.Debug|x64.Build.0 = Debug|x64
+		{1426C4F2-E9D2-4DD0-9382-2A252615FCFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1426C4F2-E9D2-4DD0-9382-2A252615FCFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1426C4F2-E9D2-4DD0-9382-2A252615FCFA}.Release|x64.ActiveCfg = Release|x64
+		{1426C4F2-E9D2-4DD0-9382-2A252615FCFA}.Release|x64.Build.0 = Release|x64
+		{74919BA5-DB16-4D86-B752-94BBF85290DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74919BA5-DB16-4D86-B752-94BBF85290DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74919BA5-DB16-4D86-B752-94BBF85290DD}.Debug|x64.ActiveCfg = Debug|x64
+		{74919BA5-DB16-4D86-B752-94BBF85290DD}.Debug|x64.Build.0 = Debug|x64
+		{74919BA5-DB16-4D86-B752-94BBF85290DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74919BA5-DB16-4D86-B752-94BBF85290DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74919BA5-DB16-4D86-B752-94BBF85290DD}.Release|x64.ActiveCfg = Release|x64
+		{74919BA5-DB16-4D86-B752-94BBF85290DD}.Release|x64.Build.0 = Release|x64
+		{83B5150C-C843-455F-859A-10A077DBC915}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83B5150C-C843-455F-859A-10A077DBC915}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83B5150C-C843-455F-859A-10A077DBC915}.Debug|x64.ActiveCfg = Debug|x64
+		{83B5150C-C843-455F-859A-10A077DBC915}.Debug|x64.Build.0 = Debug|x64
+		{83B5150C-C843-455F-859A-10A077DBC915}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83B5150C-C843-455F-859A-10A077DBC915}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83B5150C-C843-455F-859A-10A077DBC915}.Release|x64.ActiveCfg = Release|x64
+		{83B5150C-C843-455F-859A-10A077DBC915}.Release|x64.Build.0 = Release|x64
+		{CE598DD2-2496-4756-B418-06F91EE5EDEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE598DD2-2496-4756-B418-06F91EE5EDEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE598DD2-2496-4756-B418-06F91EE5EDEF}.Debug|x64.ActiveCfg = Debug|x64
+		{CE598DD2-2496-4756-B418-06F91EE5EDEF}.Debug|x64.Build.0 = Debug|x64
+		{CE598DD2-2496-4756-B418-06F91EE5EDEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE598DD2-2496-4756-B418-06F91EE5EDEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE598DD2-2496-4756-B418-06F91EE5EDEF}.Release|x64.ActiveCfg = Release|x64
+		{CE598DD2-2496-4756-B418-06F91EE5EDEF}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 8
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://mestefy.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = SecurityPlus.Hash\\SecurityPlus.Hash.csproj
+		SccProjectName1 = SecurityPlus.Hash
+		SccLocalPath1 = SecurityPlus.Hash
+		SccProjectUniqueName2 = SecurityPlus.HashTests\\SecurityPlus.HashTests.csproj
+		SccProjectName2 = SecurityPlus.HashTests
+		SccLocalPath2 = SecurityPlus.HashTests
+		SccProjectUniqueName3 = SecurityPlus.Signature\\SecurityPlus.Signature.csproj
+		SccProjectName3 = SecurityPlus.Signature
+		SccLocalPath3 = SecurityPlus.Signature
+		SccProjectUniqueName4 = SecurityPlus.SignatureTests\\SecurityPlus.SignatureTests.csproj
+		SccProjectName4 = SecurityPlus.SignatureTests
+		SccLocalPath4 = SecurityPlus.SignatureTests
+		SccProjectUniqueName5 = SecurityPlusCore\\SecurityPlusCore.csproj
+		SccProjectName5 = SecurityPlusCore
+		SccLocalPath5 = SecurityPlusCore
+		SccProjectUniqueName6 = SecurityPlusCoreTests\\SecurityPlusCoreTests.csproj
+		SccProjectName6 = SecurityPlusCoreTests
+		SccLocalPath6 = SecurityPlusCoreTests
+		SccProjectUniqueName7 = SecurityPlusUI\\SecurityPlusUI.csproj
+		SccProjectName7 = SecurityPlusUI
+		SccLocalPath7 = SecurityPlusUI
+	EndGlobalSection
+EndGlobal
